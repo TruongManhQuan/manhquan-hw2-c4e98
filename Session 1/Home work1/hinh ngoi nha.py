@@ -1,0 +1,18 @@
+import turtle
+f = turtle.Pen()
+f.forward(100)
+f.left(90)
+f.forward(100)
+f.left(90)
+f.forward(100)
+f.right(135)
+f.forward(70.1)
+f.right(90)
+f.forward(70.1)
+f.right(90)
+f.forward(141.42)
+f.right(135)
+f.forward(100)
+f.right(135)
+f.forward(141.42)
+
