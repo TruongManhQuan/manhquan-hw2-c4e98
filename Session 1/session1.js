@@ -55,17 +55,17 @@
 
 //Number: dạng số
 
-let randomNumber = 10;
+// let randomNumber = 10;
 
 // Toán tử: +, -, *, /, %
 
-let a = 10;
-let b = 20
-let result = a + b;
-result = a - b;
-result = a + b;
-result = a * b;
-result = a % b;
+// let a = 10;
+// let b = 20
+// let result = a + b;
+// result = a - b;
+// result = a + b;
+// result = a * b;
+// result = a % b;
 
-console.log(result);
+// console.log(result);
 

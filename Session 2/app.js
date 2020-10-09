@@ -143,14 +143,51 @@
 // let i = 0;
 // while (i < 5) {
 //     console.log("Hello world");
-//     i = i + 1;     0,  0+1, 1+1, 2+1 , 3 +1 ....... 
+//     i = i + 1;     // 0,  0+1, 1+1, 2+1 , 3 +1 ....... 
 
 // }
 
 // trong do i= i+1  Câu lệnh này giúp cho điều kiện dần trở thành bị SAI de vong lap dung lai
 
+// Cho người dùng nhập :
+// Nếu là số thì báo Đây là số
+// Nếu không phải số báo Đây không phải là số
+
+// let n = Number(prompt(" Nhập số "));
+// console.log(n);
+
+// if (n) {
+//     console.log(" Day la so");
+// } else {
+//     console.log(" Day khong phai la so");
+// }
+
+
+//Cho nguoi dung nhap lai neu nhu nhap sai
+
+// while (true) {
+//     let n = Number(prompt(" Nhap so"));
+//     if (n) {
+//     console.log(n);
+//         break;
+//     }
+// }
+
+
+//Muon su dung duoc n cho cac muc dich khac thi fai keo n ra khoi vong lap
+// let n;
+// while (true) {
+//      n = Number(prompt(" Nhap so"));
+//     if (n) {
+//         break;
+//     }
+// }
+//    console.log(n);
+
+
+
 // // EX 4
-// let result = 10;
+
 // neu user doan so nho hon kqua => too low
 // neu user doan so lon hon kqua => too high
 // neu user doan dung Bingo

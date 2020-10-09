@@ -54,9 +54,6 @@
 
 
 
-
-
-
 // // Tinh giai thua cua 1 so 
 
 // count sẽ lấy giá trị count trc nhân với số lần lặp của i
@@ -65,13 +62,13 @@
 // i = 3 >>> count = 2 * 3 = 6   ( count= 2 và i= 3 )
 // i = 4 >>> count = 6 * 4 = 24  ( count= 6 và i= 4 )
 
-let n = Number(prompt("Nhap n"));
-let count = 1 ;
-for(let i = 1; i <= n; i = i + 1 ) {
-    count = count * i
-    console.log(i);
-}
-console.log(` Giai thua = ${count} `);
+// let n = Number(prompt("Nhap n"));
+// let count = 1 ;
+// for(let i = 1; i <= n; i = i + 1 ) {
+//     count = count * i
+//     console.log(i);
+// }
+// console.log(` Giai thua = ${count} `);
 
 
 
@@ -175,4 +172,26 @@ console.log(` Giai thua = ${count} `);
 
 //         default:
 //             console.log(` ${a} khong phai la so`);
+// }
+
+
+// // EX 4
+// neu user doan so nho hon kqua => too low
+// neu user doan so lon hon kqua => too high
+// neu user doan dung Bingo
+
+// let result = 10;
+
+// let loop = true;
+
+// while (loop) {
+//     let a = parseInt(prompt(" Nhap a "));
+//     if (a < result) {
+//         console.log(" Too low ");
+//     } else if (a > result){
+//         console.log(" Too high ");
+//     } else {
+//         console.log(" BINGO !!!!!  "); 
+//         loop = false;
+//     } 
 // }
