@@ -2,22 +2,22 @@
 
 
 // tính chi so BMI
-let a = parseInt(prompt(" nhap can nang"));
-let b = parseInt(prompt(" nhap chieu cao"));
-c = b/100;
- let BMI = a /( c * c);
+// let a = parseInt(prompt(" nhap can nang"));
+// let b = parseInt(prompt(" nhap chieu cao"));
+// c = b/100;
+//  let BMI = a /( c * c);
 
-if (BMI < 16 ) {
-        console.log( ` ${BMI}  Thieu can nang ` );
-    } else if ( BMI >= 16 && BMI < 18.5) {
-        console.log(` ${BMI} Thieu can `);
-    } else if ( BMI >= 18.5 && BMI < 25 ) {
-        console.log(` ${BMI} Binh thuong `);
-    } else if (BMI >= 25 && BMI <30 ) {
-        console.log(` ${BMI} Thua can `);
-    } else {
-        console.log(` ${BMI} Beo phi`);
-    }
+// if (BMI < 16 ) {
+//         console.log( ` ${BMI}  Thieu can nang ` );
+//     } else if ( BMI >= 16 && BMI < 18.5) {
+//         console.log(` ${BMI} Thieu can `);
+//     } else if ( BMI >= 18.5 && BMI < 25 ) {
+//         console.log(` ${BMI} Binh thuong `);
+//     } else if (BMI >= 25 && BMI <30 ) {
+//         console.log(` ${BMI} Thua can `);
+//     } else {
+//         console.log(` ${BMI} Beo phi`);
+//     }
 
 
 

@@ -124,29 +124,29 @@
 // Nếu nhập đúng >>>> Bạn đã trẳ lời đúng
 
 
-let n;
-while (true){
-    n = Number(prompt(` Con nhen co bao nhieu chan ?
-    1. None
-    2. 4 legs
-    3. 8 legs
-    4. 12 legs`));
-    if(n) {
-if ( n == 3) {
-    console.log(" Ban da tra loi dung");
-    break;
+// let n;
+// while (true){
+//     n = Number(prompt(` Con nhen co bao nhieu chan ? )
+//     1. None
+//     2. 4 legs
+//     3. 8 legs
+//     4. 12 legs`));
+//     if(n) {
+// if ( n == 3) {
+//     console.log(" Ban da tra loi dung");
+//     break;
 
-} else if ( n != 3) {
-    console.log(" Chuc ban may man lan sau");
-    break;
-} 
-    }
+// } else if ( n != 3) {
+//     console.log(" Chuc ban may man lan sau");
+//     break;
+// } 
+//     }
 
-else {
-    let c = alert(` Dap an khong hop le
-Dap an nam trong 4 lua chon 1,2,3,4`);
-    console.log(c);
-}
-    }
+// else {
+//     let c = alert(` Dap an khong hop le
+// Dap an nam trong 4 lua chon 1,2,3,4`);
+//     console.log(c);
+// }
+//     }
 
 

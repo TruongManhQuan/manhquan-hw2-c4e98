@@ -33,14 +33,12 @@
 // console.log(menu);
 
 // // ví dụ CREAT:
-
+// let menu = ['chao ga', 'comgao lut', 'burger'];
 // // menu.push(' khoai tay chien');
 // // console.log(menu);
 
 // //  hoac cach sau :
-// let menu = ['chao ga', 'comgao lut', 'burger'];
-// console.log(menu);
-
+// let menu = ['chao ga', 'comgao lut', 'burger']
 
 // let newItem = 'khoai tay chien';
 // menu.push(newItem);
@@ -55,23 +53,26 @@
 // console.log(menu);
 
 // //vi du READ:
-//          //     0            1            2              goi là index
+// // //          //     0            1            2              goi là index
 // let menu = ['chao ga', 'com gao lut', 'burger'];
-// console.log(menu);
+// // // console.log(menu);
 
-// // // console.log(menu[1]);  dấu [số thứ tự index] goi ra ten phần tử trong mảng
-// // let i = 1;
-// // console.log(menu[i]);
+// // // console.log(menu[1]);  //dấu [số thứ tự index] goi ra ten phần tử trong mảng
+// // for (let i = 0; i< menu.length; i ++) {
+// //     console.log(menu[i]);
+// // }
 
-//  console.log(menu[1]);
 
-// UPDATE:
+// //  console.log(menu[1]);
 
-// //  menu[1] = 'com ngu sac';  cu phap :ten bien[] = " ten muon update"
+// // UPDATE:
+
+//  menu[1] = 'com ngu sac';
+//  console.log(menu);  //cu phap :ten bien[] = " ten muon update"
 // //   hoac 
 //   let i = 1;
 //   let item = ' com ngu sac';
-// menu[i] = item;
+//   menu[i] = item;
 
 //  console.log(menu[1]);
 //  console.log(menu);
@@ -91,7 +92,7 @@
 // let menu = ['chao ga', 'com gao lut', 'burger'];
 // console.log(menu);
 
-// menu.splice( 0, 1);  //(xoa index bnhieu va xoa bao nhieu phan tu)
+// menu.splice( 0, 1);  //(xoa index bnhieu va xoa bao nhieu phan tu)  splice(index, phan tu )
 // console.log(menu);
 
 //Thay đổi các phần tử trong mảng thành chữ thường   movie[i] i là số index tương ứng với từng phần tử trong mảng
@@ -110,4 +111,20 @@
 // n = a.length;
 // console.log(n);
 
+// //Hàm map()
 
+//index         0,1,2,3,4
+// const arr = [1,2,3,5,7]; // arr 0 = 1, arr 1 = 2, arr 2 = 3, arr 3 = 5. arr 4 = 7
+// console.log(arr);
+// const arr2 = arr.map(function(item, i) {
+//     return arr[i]+1;
+// } ) 
+// console.log(arr2);
+
+// // Hàm filter() loc
+
+// const arr3 = arr.filter(function(item, index) {
+//    return item > 2
+// } )
+
+// console.log(arr3);
