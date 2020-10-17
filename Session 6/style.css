@@ -1,0 +1,70 @@
+h1 {
+    color: blue;
+}
+
+
+p {
+    background-color: brown;
+}
+
+#first_h1 {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.white {
+    color: white;
+}
+
+
+[href] {
+    font-size: 50px;
+}
+
+[type = "password"] {
+    border: solid red 5px;
+}
+
+nav a {
+ text-decoration: line-through;
+}
+
+nav > a {
+    font-weight: 900;
+}
+
+button:active{
+    background-color: red;
+}
+
+input:focus{
+    border: red solid 5px;
+}
+
+img:hover{
+    border: black solid 5px;
+}
+
+/* id : chi dung duy nhat 1 lan
+class: dung lai duoc nhieu lan trong 1 the */
+
+/* //css specificity */
+
+/* thuoc tinh co ban CSS
+
+background 
+font
+list:
+width:
+height:
+color:
+border:
+
+
+// box-modal, badding, margin
+// boxsizing, border- box, content-box
+/ important */
+

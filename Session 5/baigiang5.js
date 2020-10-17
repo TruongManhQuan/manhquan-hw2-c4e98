@@ -5,5 +5,5 @@
 // cau 2: 
 // let myArray = [2,5,6,9,10];
 
-// let randomValue = myArray[Math.floor(Math.random() * myArray.length)];
-// console.log(randomValue);
+// let random = myArray[Math.floor(Math.random() * myArray.length)];
+// console.log(random);
